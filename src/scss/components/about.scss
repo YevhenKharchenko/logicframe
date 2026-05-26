@@ -1,0 +1,41 @@
+.about-section {
+  @include media(desktop) {
+  }
+}
+
+.about-bg-wrapper {
+  padding-top: 60px;
+  padding-bottom: 322px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/about/about-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+    background-image: url(../img/about/about-bg-desk.jpg);
+  }
+}
+
+.about-container {
+  @include media(desktop) {
+  }
+}
+
+.about-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f5efe0;
+
+  @include media(desktop) {
+    font-size: 18px;
+    max-width: 448px;
+  }
+}
