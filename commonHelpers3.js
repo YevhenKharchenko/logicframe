@@ -1,0 +1,2 @@
+import"./assets/header-d8c3cae6.js";import{S as e}from"./assets/vendor-0d74985d.js";new e(".reviews-swiper-container",{direction:"horizontal",loop:!1,centeredSlides:!0,slidesPerView:1,slidesPerGroup:1,initialSlide:0,spaceBetween:16,speed:500,allowTouchMove:!0,grabCursor:!0,watchOverflow:!0,breakpoints:{1440:{centeredSlides:!1,allowTouchMove:!1,grabCursor:!1,slidesPerView:3,spaceBetween:0}},on:{init(r){document.querySelector(".reviews-swiper-container").classList.add("show")}}});
+//# sourceMappingURL=commonHelpers3.js.map
