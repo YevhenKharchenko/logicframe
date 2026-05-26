@@ -5,7 +5,7 @@
 
 .about-bg-wrapper {
   padding-top: 60px;
-  padding-bottom: 322px;
+  padding-bottom: 302px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -28,14 +28,14 @@
 }
 
 .about-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Onest', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #f5efe0;
+  color: #4d4b55;
 
   @include media(desktop) {
     font-size: 18px;
-    max-width: 448px;
+    max-width: 544px;
   }
 }

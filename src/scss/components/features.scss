@@ -9,20 +9,20 @@
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(../img/features/features-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 
   @include media(desktop) {
     padding-top: 80px;
     padding-bottom: 80px;
     max-width: 1440px;
+    background-image: url(../img/features/features-bg-desk.jpg);
   }
 }
 
 .features-container {
-  @include media(desktop) {
-  }
-}
-
-.features-title {
   @include media(desktop) {
   }
 }
@@ -32,53 +32,77 @@
   }
 }
 
+.features-title {
+  @include media(desktop) {
+  }
+}
+
 .features-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 
   @include media(desktop) {
-    gap: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
   }
 }
 
 .features-list-item {
+  border: 1px solid #0e0d13;
+  padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-
-  @include media(desktop) {
-    flex-direction: row;
-    align-items: center;
-
-    &:last-child {
-      flex-direction: row-reverse;
-    }
-  }
-}
-
-.features-item-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+  gap: 16px;
+  width: 100%;
 
   @include media(desktop) {
     max-width: 544px;
   }
 }
 
-.features-item-wrapper {
+.features-item-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-circle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-circle {
+  background: #c4512a;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 12px;
+  width: 12px;
+  height: 12px;
+
   @include media(desktop) {
   }
 }
 
 .features-item-title {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  font-family: 'Onest', sans-serif;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
-  color: #e8c47a;
-  margin-bottom: 8px;
+  color: #0e0d13;
 
   @include media(desktop) {
     font-size: 20px;
@@ -86,23 +110,13 @@
 }
 
 .features-item-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Onest', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #f5efe0;
+  color: #4d4b55;
 
   @include media(desktop) {
     font-size: 18px;
-  }
-}
-
-.features-img {
-  margin-left: auto;
-  margin-right: auto;
-
-  @include media(desktop) {
-    min-width: 544px;
-    margin: 0;
   }
 }

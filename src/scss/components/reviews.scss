@@ -9,11 +9,16 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  background-image: url(../img/reviews/reviews-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 
   @include media(desktop) {
     padding-top: 80px;
     padding-bottom: 80px;
     max-width: 1440px;
+    background-image: url(../img/reviews/reviews-bg-desk.jpg);
   }
 }
 
@@ -48,6 +53,8 @@
 }
 
 .reviews-slide {
+  border: 1px solid #0e0d13;
+  padding: 15px;
   max-width: 300px;
 
   @include media(desktop) {
@@ -56,25 +63,25 @@
 }
 
 .reviews-item-rating {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #c98b3a;
-  margin-bottom: 8px;
+  font-family: 'Onest', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #c4512a;
+  margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 28px;
   }
 }
 
 .reviews-item-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Onest', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #f5efe0;
-  margin-bottom: 8px;
+  color: #4d4b55;
+  margin-bottom: 16px;
 
   @include media(desktop) {
     font-size: 18px;
@@ -82,12 +89,12 @@
 }
 
 .reviews-item-name {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  font-family: 'Onest', sans-serif;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
   text-align: right;
-  color: #9b6fbf;
+  color: #0e0d13;
 
   @include media(desktop) {
     font-size: 20px;
