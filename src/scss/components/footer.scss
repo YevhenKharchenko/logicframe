@@ -1,5 +1,5 @@
 .footer {
-  background: #0d0a1e;
+  background: #0e0d13;
 
   @include media(desktop) {
   }
@@ -50,12 +50,12 @@
 }
 
 .footer-link {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Onest', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #9b6fbf;
+  color: #f7eedd;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -68,12 +68,12 @@
 }
 
 .footer-bottom-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Onest', sans-serif;
   font-weight: 400;
   font-size: 11px;
   line-height: 1.5;
   text-align: center;
-  color: #9b6fbf;
+  color: #f7eedd;
 
   @include media(desktop) {
     font-size: 12px;
